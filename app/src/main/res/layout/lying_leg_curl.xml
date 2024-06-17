@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <VideoView
+            android:id="@+id/vLyingLegCurl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="준비"
+                android:textSize="25dp"
+                android:fontFamily="@font/font2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="기계에 엎드려 눕습니다. 레버 패드 아래에 발목을 고정하고 핸들에 손을 고정합니다."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="실행"
+                android:textSize="25dp"
+                android:fontFamily="@font/font2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="1. 허벅지와 엉덩이를 벤치에 유지하면서 햄스트링에 힘을 주어 다리를 위로 구부리고 발뒤꿈치를 엉덩이 쪽으로 들어 올립니다."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="2. 상단 위치에서 몇 초 동안 유지합니다"
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="3. 시작 위치로 돌아가 반복합니다."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="주요 팁"
+                android:textSize="25dp"
+                android:fontFamily="@font/font2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="1. 바닥에서 무릎을 잠그지 마십시오."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|end"
+        android:id="@+id/exit"
+        android:backgroundTint="#EFEFEF"
+        android:text="뒤로가기"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

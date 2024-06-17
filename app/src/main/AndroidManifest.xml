@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Final"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Abs" android:label="Abs" />
+        <activity android:name=".Arm" android:label="Arm" />
+        <activity android:name=".Back" android:label="Back" />
+        <activity android:name=".Chest" android:label="Chest" />
+        <activity android:name=".Leg" android:label="Leg" />
+        <activity android:name=".Shoulder" android:label="Shoulder" />
+        <activity android:name=".Plank" android:label="Plank" />
+        <activity android:name=".HangingKneeRaise" android:label="HangingKneeRaise" />
+        <activity android:name=".LegRaise" android:label="LegRaise"/>
+        <activity android:name=".RussianTwist" android:label="RussianTwist" />
+        <activity android:name=".ReverseCrunch" android:label="ReverseCrunch" />
+        <activity android:name=".BarbellCurl" android:label="BarbellCurl" />
+        <activity android:name=".DumbbellCurl" android:label="DumbbellCurl" />
+        <activity android:name=".SkullCrusher" android:label="SkullCrusher" />
+        <activity android:name=".CablePushdown" android:label="CablePushdown" />
+        <activity android:name=".PreacherCurl" android:label="PreacherCurl" />
+        <activity android:name=".DeadLift" android:label="DeadLift" />
+        <activity android:name=".LatPulldown" android:label="LatPulldown" />
+        <activity android:name=".SeatedRow" android:label="SeatedRow" />
+        <activity android:name=".BentOverRow" android:label="BentOverRow" />
+        <activity android:name=".PullUp" android:label="PullUp" />
+        <activity android:name=".BenchPress" android:label="BenchPress" />
+        <activity android:name=".SeatedChestPress" android:label="SeatedChestPress" />
+        <activity android:name=".SeatedChestFly" android:label="SeatedChestFly"  />
+        <activity android:name=".ChestDip" android:label="ChestDip" />
+        <activity android:name=".PushUp" android:label="PushUp" />
+        <activity android:name=".LegPress" android:label="LegPress" />
+        <activity android:name=".LyingLegCurl" android:label="LyingLegCurl" />
+        <activity android:name=".LegExtension" android:label="LegExtension" />
+        <activity android:name=".Lunge" android:label="Lunge" />
+        <activity android:name=".FullSquat" android:label="FullSquat" />
+        <activity android:name=".MilitaryPress" android:label="MilitaryPress" />
+        <activity android:name=".LateralRaise" android:label="LateralRaise" />
+        <activity android:name=".FrontRaise" android:label="FrontRaise" />
+        <activity android:name=".RearDeltRow" android:label="RearDeltRow" />
+        <activity android:name=".ShoulderPress" android:label="ShoulderPress" />
+    </application>
+
+</manifest>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#EFEFEF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="원하는 운동을 선택하세요"
+        android:gravity="center"
+        android:textColor="#676767"
+        android:textSize="30dp"
+        android:fontFamily="@font/font2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/chest"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="가슴 운동"
+            android:textColor="#F1F100"
+            android:textSize="25dp"
+            android:fontFamily="@font/font"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/leg"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="하체 운동"
+            android:textColor="#F1F100"
+            android:textSize="25dp"
+            android:fontFamily="@font/font"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/back"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="등 운동"
+            android:textColor="#F1F100"
+            android:textSize="25dp"
+            android:fontFamily="@font/font"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/shoulder"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="어깨 운동"
+            android:textColor="#F1F100"
+            android:textSize="25dp"
+            android:fontFamily="@font/font"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/arm"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="팔 운동"
+            android:textColor="#F1F100"
+            android:textSize="25dp"
+            android:fontFamily="@font/font"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/abs"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="복근 운동"
+            android:textColor="#F1F100"
+            android:textSize="25dp"
+            android:fontFamily="@font/font"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

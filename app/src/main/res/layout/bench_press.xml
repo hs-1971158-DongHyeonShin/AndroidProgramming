@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <VideoView
+            android:id="@+id/vBenchPress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="준비"
+                android:textSize="25dp"
+                android:fontFamily="@font/font2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="바닥에 발을 대고 벤치에 눕습니다. 어깨 너비보다 넓게 벌리고 팔을 구부리고 손바닥이 앞을 향하게 하여 가슴 높이에서 바를 잡습니다."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="실행"
+                android:textSize="25dp"
+                android:fontFamily="@font/font2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="1. 숨을 내쉬고 가슴을 쥐어 짜서 바를 위로 밀어 팔을 똑바로 펴십시오."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="2. 숨을 내쉬며 천천히 바를 시작 위치로 내리고 반복합니다."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="주요 팁"
+                android:textSize="25dp"
+                android:fontFamily="@font/font2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="1. 팔꿈치를 위쪽에서 잠그지 마십시오."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="2. 운동하는 동안 등을 곧게 펴고 코어를 고정하십시오."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|end"
+        android:id="@+id/exit"
+        android:backgroundTint="#EFEFEF"
+        android:text="뒤로가기"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#EFEFEF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="어깨 운동"
+        android:gravity="center"
+        android:textColor="#676767"
+        android:textSize="40dp"
+        android:fontFamily="@font/font2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/militaryPress"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/font"
+            android:textColor="#F1F100"
+            android:text="밀리터리 프레스"
+            android:textSize="25dp"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/lateralRaise"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/font"
+            android:textColor="#F1F100"
+            android:text="래터럴 레이즈"
+            android:textSize="25dp"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/frontRaise"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/font"
+            android:textColor="#F1F100"
+            android:text="프런트 레이즈"
+            android:textSize="25dp"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/rearDeltRow"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/font"
+            android:textColor="#F1F100"
+            android:text="리어 델트 로우"
+            android:textSize="25dp"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/shoulderPress"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/font"
+            android:textColor="#F1F100"
+            android:text="숄더 프레스"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="right"
+            android:id="@+id/exit"
+            android:backgroundTint="#EFEFEF"
+            android:text="뒤로가기"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</LinearLayout>

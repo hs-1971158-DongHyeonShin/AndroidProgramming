@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <VideoView
+            android:id="@+id/vBarbellCurl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="준비"
+                android:textSize="25dp"
+                android:fontFamily="@font/font2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="가슴을 펴고 서십시오. 어깨너비로 손을 벌리고 팔꿈치를 옆구리에 붙인 언더핸드 그립으로 바벨을 잡습니다."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="실행"
+                android:textSize="25dp"
+                android:fontFamily="@font/font2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="1. 팔뚝이 가슴에 닿을 때까지 바를 위로 구부립니다."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="2. 몇 초 동안 멈추고 이두근을 쥐어짜십시오."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="3. 바를 시작 위치로 내리고 반복합니다."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="주요 팁"
+                android:textSize="25dp"
+                android:fontFamily="@font/font2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="1. 동작 내내 가슴을 위로 향하게 하고 논은 앞을 바라보십시오."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="2. 운동하는 동안 등을 곧게 펴고 코어를 지탱하십시오."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|end"
+        android:id="@+id/exit"
+        android:backgroundTint="#EFEFEF"
+        android:text="뒤로가기"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <VideoView
+            android:id="@+id/vSeatedChestFly"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="준비"
+                android:textSize="25dp"
+                android:fontFamily="@font/font2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="등을 지지하고 발을 바닥에 대고 머신에 앉습니다. 손바닥이 앞을 향하도록 핸들을 잡습니다."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="실행"
+                android:textSize="25dp"
+                android:fontFamily="@font/font2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="1. 숨을 내쉬고 가슴을 조이고 핸들을 최대한 가깝게 누릅니다."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="2. 몇 초 자세로 멈췄다가 숨을 들이마시며 천천히 시작 자세로 돌아가기를 반복합니다."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="주요 팁"
+                android:textSize="25dp"
+                android:fontFamily="@font/font2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="1. 운동하는 동안 등을 곧게 펴고 코어를 고정하십시오."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="2. 동작 내내 팔꿈치를 약간 구부린 상태를 유지하십시오."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|end"
+        android:id="@+id/exit"
+        android:backgroundTint="#EFEFEF"
+        android:text="뒤로가기"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

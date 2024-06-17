@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <VideoView
+            android:id="@+id/vRussianTwist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="준비"
+                android:textSize="25dp"
+                android:fontFamily="@font/font2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="바닥에 앉아 무릎을 구부리고 발을 약간 벌린 상태에서 뒤로 약간 기울입니다. 가슴 위로 손을 잡습니다."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="실행"
+                android:textSize="25dp"
+                android:fontFamily="@font/font2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="1. 상체를 한 쪽으로 비틀기 위해 숨을 내쉬고 사선을 짜십시오."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="2. 상체를 다시 시작 위치로 돌리십시오."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="3. 왼쪽과 오른쪽을 완전히 교대합니다."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="주요 팁"
+                android:textSize="25dp"
+                android:fontFamily="@font/font2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="1. 움직임을 돕기 위해 손이나 팔을 사용하지 마십시오."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="2. 동작 내내 다리를 고정하십시오."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="3. 운동하는 동안 등을 곧게 펴고 코어를 고정하십시오."
+                android:textSize="18dp"
+                android:fontFamily="@font/font"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|end"
+        android:id="@+id/exit"
+        android:backgroundTint="#EFEFEF"
+        android:text="뒤로가기"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

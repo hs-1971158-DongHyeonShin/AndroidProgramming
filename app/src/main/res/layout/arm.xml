@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#EFEFEF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="팔 운동"
+        android:gravity="center"
+        android:textColor="#676767"
+        android:textSize="40dp"
+        android:fontFamily="@font/font2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/barbellCurl"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/font"
+            android:textColor="#F1F100"
+            android:text="바벨 컬"
+            android:textSize="25dp"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/dumbbellCurl"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/font"
+            android:textColor="#F1F100"
+            android:text="덤벨 컬"
+            android:textSize="25dp"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/skullCrusher"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/font"
+            android:textColor="#F1F100"
+            android:text="스컬 크러셔"
+            android:textSize="25dp"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/cablePushdown"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/font"
+            android:textColor="#F1F100"
+            android:text="케이블 푸쉬다운"
+            android:textSize="25dp"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/preacherCurl"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/font"
+            android:textColor="#F1F100"
+            android:text="프리처 컬"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="right"
+            android:id="@+id/exit"
+            android:backgroundTint="#EFEFEF"
+            android:text="뒤로가기"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</LinearLayout>
